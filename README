@@ -1,0 +1,25 @@
+A few highlights about the code that most people won't give a rat's about or even understand:
+ Shared object file integration
+ 100% rewritten fightcode
+ 'Modular' classes; easy to add, modify, or remove a class
+ Central class functions to handle hr, dr, ac, parry, dodge, attacks, etc
+ Easially expanded SQL integration; currently powering the social table
+  ^^^^^NOTE: You WILL need to either figure out the SQL code or remove it to even BOOT the mud
+ A configure command to change many in-game parameters and other such junk
+ Lots of other crap I don't feel like thinking of =)
+
+This code was released 04.01.03 (yes, April Fools Day, but this is no joke)...Blah blah blah.
+Anyhow, if you want to be able to actually boot the mud, you need to do a few key things.
+
+1) Either remove the SQL code, or link it into your own database to use
+2) READ THE MAKEFILE, you NEED to "make so" and compile the shared object files
+3) No being stupid.  Durgh.
+
+If all else fails, and we're feeling nice, we might offer you some help.
+Come visit us at SWOOH.COM on port 7181.  Either drop a note to imm, Kale, or Kline;
+or try to catch one of us online.  Leave an email address if you really want a response,
+since we might not see each other on the mud very frequently =).
+
+And above all else, ENJOY OUR WORK.
+Oh, and read help vortex.
+--Kline
